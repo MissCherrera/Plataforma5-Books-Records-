@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStore - Form</title>
+    <link rel="stylesheet" href="style/bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style/webstore.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">WebStore HackToon</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+    
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Productos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="books.html">Libros</a>
+                        <a class="dropdown-item" href="records.html">Discos</a>
+                    </div>
+                </li>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+        </div>
+        <span class="navbar-text">
+            <a class="nav-link" href="index.html">Ver Todo </a>
+        </span>
+        <span class="navbar-text">
+            <a class="nav-link" href="#">Agregar Productos</a>
+        </span>
+        </ul>
+        </div>
+    </nav>
+
+    <h6>
+        <form action="" class ="formstore">
+            <div class= "row justify-content-center">
+                <div class ="col-xs-4">
+                    <label for="newProduct">Nuevo Producto:</label><br>
+                    <input class="form-control form-control-sm type="text" name="nombreCompleto" required placeholder=""><br>
+                    <br>
+                    <label for="title">Titulo:</label><br>
+                    <input class="form-control form-control-sm type="text" name="title" required placeholder=""><br>
+                    <br>
+                    <label for="category">Categoria:</label><br>
+                    <input class="form-control form-control-sm type="text" name="category" required placeholder=""><br>
+                    <br>
+                    <label for="price">Precio:</label><br>
+                    <input class="form-control form-control-sm type="text" name="price" required placeholder=""><br>
+                    <br>
+                    <label for="salePoint">Puntos de venta (Dividir por coma. Ej: Yenny, Amazon, Musimundo):</label><br>
+                    <input class="form-control form-control-sm type="text" name="salePoint" required placeholder=""><br>
+                    <br>
+                    <label for="pictureUrl">Imagen Url:</label><br>
+                    <input class="form-control form-control-sm type="text" name="pictureUrl" required placeholder=""><br>
+                    <br>
+                    <button class="boton" type="submit">Publicar!</button>
+                </div>
+            </div>
+        </form>
+    </h6>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

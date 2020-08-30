@@ -1,0 +1,15 @@
+/*[class*=col-] {
+	background-color: antiquewhite;
+	border: solid 1px blueviolet;
+}*/
+.card {
+	margin: 15px 0;
+}
+
+.container{
+	margin-top: 40px;
+}
+
+.img-fluid{
+	padding: 20px 40px 20px 40px;
+}

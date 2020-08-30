@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStore - Books </title>
+    <link rel="stylesheet" href="style/bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style/webstore.css">
+</head>
+<body>
+<!--Empieza el Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">WebStore Hacktoon</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Productos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="books.html">Libros</a>
+                            <a class="dropdown-item" href="records.html">Discos</a>
+                        </div>
+                    </li>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </ul>
+                <span class="navbar-text">
+                    <a class="nav-link" href="#">Ver Todo </a>
+                </span>
+                <span class="navbar-text">
+                    <a class="nav-link" href="form.html">Agregar Productos</a>
+                </span>
+            </div>
+    </nav>
+<!-- TERMINA NAVBAR     -->
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- Book Tuareg -->
+            <div class="col-12 col-lg-4  px-5">
+                <div class="border border-primary">
+                    <img class="img-fluid imagen" src="img/Tuareg_novel_bookcover.jpg" alt="imagen portfolio">
+                    <ul>
+                        <li>Nombre: Tuareg</li>
+                        <li>Categoria: Novelas</li>
+                        <li>Precio: $255</li>
+                        <li>Venta: El Ateneo</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Book Borges -->
+            <div class="col-12 col-lg-4 my-3 px-5">
+                <div class="border border-primary">
+                    <img class="img-fluid" src="img/Borges.jpg" alt="imagen portfolio">
+                    <ul>
+                        <li> Nombre: Completos</li>
+                        <li> Categoria: Cuentos</li>
+                        <li> Precio: $500</li>
+                        <li> Venta: Gral. Las heras</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Book Mil y una Noches -->
+            <div class="col-12 col-lg-4 my-3  px-5">
+                <div class="border border-primary">
+                    <img class="img-fluid" src="img/lasMil.jpg" alt="imagen portfolio">
+                    <ul>
+                        <li> Nombre: Mil y una Noches</li>
+                        <li>Categoria: Cuentos</li>
+                        <li> Precio: $1500</li>
+                        <li> Lugar de venta: La Calle</li>
+                        <li> Descuento: 20%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
